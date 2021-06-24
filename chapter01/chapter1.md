@@ -73,7 +73,7 @@ LWJGL 的平台依赖关系已经被您平台的原生解包库所掌管, 所以
 
 除此之外, 每个项目都会生成一个可运行的 jar 文件 \(可通过输入 java -jar name\_of\_the\_jar.jar\ 来运行).其是通过使用可以生成带有正确属性值与 `MANIFEST.MF` 文件的 jar 文件的插件来打包的. 该文件最重要的一点就是 `Main-Class` (主类), 其设置了程序的进入点. 另外, 所有依赖关系都被设置成了在 `Class-Path` (类路径) 中的进入点. 为了能够在其他计算机中运行这一文件, 只需要复制这个主要的 jar 文件和在目标目录下的 lib 目录 \(包含了所有 jar 文件\).
 
-这些 jar 文件包含了 LWJGL 的类, 也包含了一些原生库. LWJGL 也会压缩他们, 并将他们加入 JVM 寻找库的环境变量中去.T
+这些 jar 文件包含了 LWJGL 的类, 也包含了一些原生库. LWJGL 也会压缩他们, 并将他们加入 JVM 寻找库的环境变量中去.
 
 第一章的源代码是直接从 LWGPL 的官方站点 \([http://www.lwjgl.org/guide](http://www.lwjgl.org/guide)\) 上得到的. 您可能会注意到,我们并未使用 Swing 或是 JavaFX 当做我们的 GUI 库. 取而代之的是 [GLFW](www.glfw.org): 一个可以通过 OpenGL 上下文管理 GUI 组件 \(Windows等\) 与 事件 \(按键, 鼠标的移动等\) 的库. 先前的 LWJGL 版本提供自定义 GUI API, 但是在 LWJGL 3 中, 我们更倾向于使用视窗化的 API.
 
