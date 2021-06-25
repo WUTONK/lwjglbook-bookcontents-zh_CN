@@ -2,7 +2,7 @@ name: Build VuePress
 on: [push]
 jobs:
   build-and-deploy:
-    runs-on: macos-latest
+    runs-on: linux-latest
     steps:
     - name: Checkout
       uses: actions/checkout@master
