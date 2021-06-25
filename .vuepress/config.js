@@ -43,6 +43,7 @@ module.exports = {
       "/chapter26/chapter26.md",
       "/chapter27/chapter27.md",
       "/chapter28/chapter28.md",
+      "/appendixa/appendixa.md"
     ],
     lastUpdated: "最后更新 ",
     smoothScroll: true,
