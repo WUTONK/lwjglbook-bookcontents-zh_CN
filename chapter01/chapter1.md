@@ -81,7 +81,7 @@ LWJGL 的平台依赖关系已经被你平台的原生解包库所掌管, 所以
 
 如果你成功地设置好了你的开发环境, 你应该可以运行这个程序并看到一个带有红色背景的窗口.
 
-![Hello World](hello_world.png)
+![Hello World](./hello_world.png)
 
 **这本书的源代码已经发布到了 **[**GitHub**](https://github.com/lwjglgamedev/lwjglbook)**.**
 
