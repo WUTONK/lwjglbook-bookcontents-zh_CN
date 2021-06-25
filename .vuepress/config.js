@@ -1,6 +1,6 @@
 module.exports = {
   title: "使用 LWJGL 3 开发 3D 游戏",
-  base: "/",
+  base: ".",
   serviceWorker: true,
   markdown: {
     lineNumbers: true,
