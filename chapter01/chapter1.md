@@ -75,7 +75,7 @@ LWJGL 的平台依赖关系已经被您平台的原生解包库所掌管, 所以
 
 这些 jar 文件包含了 LWJGL 的类, 也包含了一些原生库. LWJGL 也会压缩他们, 并将他们加入 JVM 寻找库的环境变量中去.
 
-第一章的源代码是直接从 LWGPL 的官方站点 \([http://www.lwjgl.org/guide](http://www.lwjgl.org/guide)\) 上得到的. 您可能会注意到,我们并未使用 Swing 或是 JavaFX 当做我们的 GUI 库. 取而代之的是 [GLFW](www.glfw.org): 一个可以通过 OpenGL 上下文管理 GUI 组件 \(Windows等\) 与 事件 \(按键, 鼠标的移动等\) 的库. 先前的 LWJGL 版本提供自定义 GUI API, 但是在 LWJGL 3 中, 我们更倾向于使用视窗化的 API.
+第一章的源代码是直接从 LWGPL 的官方站点 \([http://www.lwjgl.org/guide](http://www.lwjgl.org/guide)\) 上得到的. 您可能会注意到, 我们并未使用 Swing 或是 JavaFX 当做我们的 GUI 库. 取而代之的是 [GLFW](www.glfw.org): 一个可以通过 OpenGL 上下文管理 GUI 组件 \(Windows等\) 与 事件 \(按键, 鼠标的移动等\) 的库. 先前的 LWJGL 版本提供自定义 GUI API, 但是在 LWJGL 3 中, 我们更倾向于使用视窗化的 API.
 
 这个开发示例已经经过了十分直白而又简明的排版, 所以我们不会再次重复注释了.
 
