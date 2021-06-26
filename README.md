@@ -1,40 +1,40 @@
-# 3D Game Development with LWJGL 3
+# 使用 LWJGL 3 开发 3D 游戏
 
-This online book will introduce the main concepts required to write a 3D game using the LWJGL 3 library.
+这本在线书籍将会为您介绍使用 LWJGL 3 进行 3D 游戏开发的主要概念.
 
-[LWJGL](http://www.lwjgl.org/) is a Java library that provides access to native APIs used in the development of graphics \(OpenGL\), audio \(OpenAL\) and parallel computing \(OpenCL\) applications. This library leverages the high performance of native OpenGL applications while using the Java language.
+[LWJGL](http://www.lwjgl.org/)是一个为图形 \(OpenGL\) , 音频 \(OpenAL\) 和并行计算 \(OpenCL\) 的开发提供原生 API 访问的图形 Java 库. 这个库平衡了使用 Java 开发原生 OpenGL 应用时的高效性能.
 
-My initial goal was to learn the techniques involved in writing a 3D game using OpenGL. All the information required was there in the internet but it was not organized and sometimes it was very hard to find and even incomplete or misleading.
+我最初的目标是学习使用 OpenGL 编写 3D 游戏所涉及到的技术. 所需的所有信息都在网上, 但没有组织性, 况且有时很难找到, 甚至是不完整的或具有误导性的.
 
-I started to collect some materials, develop some examples and decided to organize that information in the form of a book.
+所以我开始收集一些资料, 开发一些例子, 并决定以一本书的形式组织这些信息.
 
-**2020/06/20 - NEWS**:  Vulkan book first chapters already available [here](https://github.com/lwjglgamedev/vulkanbook).
+**2020/06/20 - 更新**: 使用 Vulkan 编辑的书籍的头几个章节已在 [这里](https://github.com/lwjglgamedev/vulkanbook) 可用. 
 
-## Source Code
+## 源代码
 
-The source code of the samples of this book is in [GitHub](https://github.com/lwjglgamedev/lwjglbook).
+这本书中的示例代码可在 [GitHub](https://github.com/lwjglgamedev/lwjglbook) 中找到.
 
-The source code for the book itself is also published in [GitHub](https://github.com/lwjglgamedev/lwjglbook-bookcontents).
+这本书的源代码也在 [GitHub](https://github.com/lwjglgamedev/lwjglbook-bookcontents) 上发布了.
 
-## License
+## 许可
 
-The book is licensed under [Attribution-ShareAlike 4.0 International \(CC BY-SA 4.0\)](http://creativecommons.org/licenses/by-sa/4.0/)
+该书已根据 [署名-相同方式共享 4.0 国际 \(CC BY-SA 4.0\)](http://creativecommons.org/licenses/by-sa/4.0/) 获得许可.
 
-The source code for the book is licensed under [Apache v2.0](https://www.apache.org/licenses/LICENSE-2.0 "Apache v2.0")
+本书的源代码根据 [Apache v2.0](https://www.apache.org/licenses/LICENSE-2.0 "Apache v2.0") 协议发行.
 
-## Support
+## 支持
 
-If you like the book please rate it with a start and share it. If you want to contribute with a donation you can do a donation:  
+如果你喜欢这本书, 请先给它一颗 Star 并分享给别人. 如果您想通过捐赠做出贡献, 您可以在以下链接进行捐赠: 
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5MH9AA9TPQQBN)
 
-## Comments are welcome
+## 欢迎评论
 
-Suggestions and corrections are more than welcome \(and if you do like it please rate it with a star\). Please send them using the discussion forum and make the corrections you consider in order to improve the book.
+建议与纠错是十分被欢迎的 \(如果你十分喜欢他请给这本书一个 star\). 请把你的建议发送到讨论论坛以便我们考虑使用你的更正来改进此书.
 
-## Author
+## 作者
 
 Antonio Hernández Bejarano
 
-## Special Thanks
+## 特殊感谢
 
-To all the readers that have contributed with corrections, improvements and ideas.
+致所有贡献过更正, 改进, 和想法的读者.
