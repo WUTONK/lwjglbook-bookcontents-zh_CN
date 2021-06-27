@@ -8,11 +8,11 @@ LWJGL 是一个像 OpenGL 的包装器的底层 API.如果你想在短时间内�
 
 你需要使用支持 Java 的 IDE (集成开发环境) 来运行示例项目. 你可以下载对 Java 10 拥有超棒支持的 IntelliJ. 到目前为止, Java 10 仅支持 64 位平台, 所以请一定要下载 IntelliJ 的 64 位版本. IntelliJ提供了一个开源版本, 即社区版, 你可从此处下载: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/ "Intellij").
 
-![](/chapter01/intellij.png)
+![](./intellij.png)
 
 我们将使用 [Maven](https://maven.apache.org/) 来构建我们的示例项目. Maven 已经被集成进了大多数 IDE, 所以你可以直接打开不同的示例文件. 只需要打开包含该章节示例的文件夹, IntelliJ 就会检测到这是一个 Maven 项目.
 
-![](/chapter01/maven_project.png)
+![](./maven_project.png)
 
 通过 Maven 构建的项目是基于一个叫做 `pom.xml` \(Project Object Model\) 的 XML 文件上的. 这个文件用来管理项目的依赖关系与构建过程中所要进行的步骤. Maven 遵循约定大于配置的原则, 这就是说, 如果你遵循标准项目结构与命名规范, 那么你将没有必要在配置文件中加入源文件和编译类的位置.
 
