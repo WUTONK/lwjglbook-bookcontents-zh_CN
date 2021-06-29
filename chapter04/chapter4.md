@@ -254,7 +254,7 @@ verticesBuffer.put(vertices).flip();
 
 你可以在此处查阅详细信息:[https://blog.lwjgl.org/memory-management-in-lwjgl-3/](https://blog.lwjgl.org/memory-management-in-lwjgl-3/ "这里").
 
-在这种情况下，我们的数据将会被发送到GPU，这样我们就可以使用自动管理的缓冲区.但是,由于以后我们将使用它们来保存潜在的大量数据,因此我们需要手动管理它们.这就是我们使用`MemoryUtil`类的原因,也是我们释放finally块中缓冲区的原因.在下一章中,我们将学习如何使用自动管理的缓冲区.
+在这种情况下，我们的数据将会被发送到GPU，这样,我们就可以使用自动管理的缓冲区.但是,由于以后我们将使用它们来保存潜在的大量数据,因此我们需要手动管理它们.这就是我们使用`MemoryUtil`类的原因,也是我们释放finally块中缓冲区的原因.在下一章中,我们将学习如何使用自动管理的缓冲区.
 
 现在我们需要创建VAO并绑定它.
 
